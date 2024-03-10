@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Penguin Tutoring</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/register_AND_login.css">
+    <style>
+        /* Additional CSS for the message */
+        #registration-message {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="myotherimages/logo.png" alt="Penguin Tutoring Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lessons.html">Find Lessons</a></li>
+                <li><a href="howItWorks.html">How It Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Sign In</a></li>
+                <li><a href="studentInfo.html">Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Sign In</h1>
+        <form id="sign-in-form" action="#" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign In</button>
+        </form>
+        <p id="registration-message" style="display: none;">Email or Password is incorrect. Please try again.</p>
+        <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+    </main>
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <!-- Include register.js -->
+    <script src="register.js"></script>
+    <!-- Include login.js -->
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Profile - Penguin Tutoring</title>
+    <style>
+.teacher-profile-booking {
+    flex: none; /* Do not grow or shrink */
+    max-width: 400px; /* Set a max-width for the booking box */
+    padding: 20px; /* Adjust padding to your preference */
+    margin-right: 80px; /* Add right margin to push away from the side */
+    margin-left: 0; /* Reset left margin if previously set */
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+
+
+    </style>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <img src="myotherimages/logo.png" alt="Penguin Tutoring Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lessons.html">Find Lessons</a></li>
+                <li><a href="howItWorks.html">How It Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Sign In</a></li>
+                <li><a href="studentInfo.html">Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- The container where the teacher profile will be displayed -->
+        <div class="teacher-profile" id="teacher-profile">
+            <div class="teacher-profile-details">
+                <!-- Placeholders for the teacher's information -->
+                <img src="" alt="Teacher Name" class="teacher-photo" id="teacherPhoto">
+                <h1 id="teacherName">Teacher Name</h1>
+                <p id="teacherBio">Teacher Bio</p>
+                <div class="accordion">
+                    <button class="accordion-toggle">Qualifications +</button>
+                    <div class="accordion-content" id="qualifications-content">
+                        <!-- Qualifications will be inserted here by JavaScript -->
+                    </div>
+                </div>
+
+
+
+                <div class="accordion">
+                    <button class="accordion-toggle">Subjects +</button>
+                    <div class="accordion-content" id="subjects-content">
+                        <!-- Subjects will be inserted here by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Accordion for Teaching Style -->
+                <div class="accordion">
+                    <button class="accordion-toggle">Teaching Style +</button>
+                    <div class="accordion-content" id="style-content">
+                        <!-- Teaching style will be inserted here by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Accordion for Experience -->
+                <div class="accordion">
+                    <button class="accordion-toggle">Experience +</button>
+                    <div class="accordion-content" id="experience-content">
+                        <!-- Experience will be inserted here by JavaScript -->
+                    </div>
+                </div>
+
+
+                <!-- Accordion for Contact -->
+                <p id="contact">Teacher contact</p>
+
+                
+            </div>
+            <div class="teacher-profile-booking">
+                <div class="booking-box">
+                    <h2>Book Now</h2>
+                    <div id="booking-details">
+                        <!-- Booking details will be inserted here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        
+
+
+    </main>
+    <footer>
+        <!-- Footer content -->
+    </footer>
+    <!-- Link to the JavaScript file that will populate the data -->
+    <script src="fetchTeacherProfile.js"></script>
+</body>
+
+</html>

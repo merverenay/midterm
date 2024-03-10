@@ -1,0 +1,197 @@
+/* register_AND_login.css */
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f0f0, #ffffff);
+}
+
+
+header {
+    background: #333; /* Dark background for the header */
+    color: #fff; /* White text color */
+    padding: 5px 20px; /* Reduced padding to make the header less thick */
+}
+
+header img {
+    height: 50px; /* Reduced height of the logo */
+    margin-bottom: -40px; /* Pushes the logo down */
+}
+header img.logo {
+    width: 60px; /* Original size was 100px, adjust as needed */
+    height: 60px; /* Maintain the same value as width for a square logo */
+    /* Other styles as needed */
+}
+/* Main styles */
+main {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 20px;
+    color: #555;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Table styles */
+/* table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+} */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow like in the form */
+    border-radius: 8px; /* Rounded corners like the form */
+    overflow: hidden; /* Ensures the border-radius is applied to the children */
+    margin-bottom: 20px; /* Space below the table */
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 16px; /* More padding for a better look */
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333; /* Darker text color for the header */
+}
+
+/* Additional styles for responsive layouts, etc. */
+@media (max-width: 768px) {
+    table, th, td {
+        display: block;
+    }
+
+    th, td {
+        text-align: justify; /* For a clean look on small screens */
+    }
+
+    /* ... */
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 20px; /* or any space you want */
+}
+
+th, td {
+    background-color: #fff; /* Background color for the table cells */
+    border: 1px solid #ddd; /* Border for table cells */
+    padding: 20px; /* Padding inside table cells */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Shadow effect */
+    margin: 10px 0; /* Space between table rows */
+}
+
+/* Separate each th/td to act like its own card */
+tr {
+    background-color: transparent; /* Ensures the row itself has no background */
+}
+
+/* Target the first th/td in each row for rounded top corners */
+tr th:first-child, 
+tr td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* Target the last th/td in each row for rounded top corners */
+tr th:last-child, 
+tr td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Make sure the top corners of the first row and the bottom corners of the last row are rounded */
+tr:first-child th, 
+tr:first-child td {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+tr:last-child th, 
+tr:last-child td {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

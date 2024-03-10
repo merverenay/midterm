@@ -1,0 +1,140 @@
+{
+    "teachers": [
+        {
+            "id": 1,
+            "name": "Jane Doe",
+            "photo": "pics/green.png",
+            "bio": "I am a passionate educator with over 10 years of experience teaching mathematics and science.",
+            "qualifications": ["M.S. in Mathematics Education", "B.S. in Biology", "Certified Teacher in Secondary Education"],
+            "subjects": ["Algebra", "Geometry", "Physics"],
+            "style": "I use a variety of teaching methods, including hands-on activities, real-world examples, and technology integration.",
+            "experience": "Over 10 years teaching in public and private schools, tutoring one-on-one, and conducting online lessons.",
+            "contact": "Email: jane.doe@example.com | Phone: (123) 456-7890",
+            "booking": [
+                "Monday: 4-11 AM", 
+                "1PM-5PM",
+                "Tuesday: 4AM-11AM", 
+                "1PM-5PM"
+                
+            ]
+
+            
+              
+        },
+        {
+            "id": 2,
+            "name": "John Smith",
+            "photo": "pics/blue.png",
+            "bio": "Experienced English teacher with a passion for literature and writing.",
+            "qualifications": ["B.A. in English Literature", "TEFL Certified"],
+            "subjects": ["English Literature", "Creative Writing", "ESL"],
+            "style": "I focus on interactive learning and encourage students to express themselves.",
+            "experience": "5 years teaching English at high school and language institutes.",
+            "contact": "Email: john.smith@example.com | Phone: (456) 789-0123",
+            "booking": [
+                "Sunday: 4-11 AM", 
+                "1PM-5PM",
+                "Saturday: 4AM-11AM", 
+                "1PM-5PM"
+                
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Leo Sunlight",
+            "photo": "pics/purple.png",
+            "bio": "Enthusiastic Math teacher dedicated to helping students find the beauty in numbers.",
+            "qualifications": ["M.Sc. in Applied Mathematics", "Certified Math Educator"],
+            "subjects": ["Algebra", "Calculus", "Statistics"],
+            "style": "My teaching is about making complex concepts accessible and fun.",
+            "experience": "7 years teaching Math in various high schools and tutoring centers.",
+            "contact": "Email: leo.sunlight@example.com | Phone: (321) 654-0987",
+            "booking": [
+                "Monday: 3-7 PM",
+                "Wednesday: 5-9 PM",
+                "Saturday: 10AM-2PM"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Emma Stoneheart",
+            "photo": "pics/pink.png",
+            "bio": "Devoted Science teacher with a zeal for experiments and discovery.",
+            "qualifications": ["B.Sc. in Biology", "M.Ed. in Science Education"],
+            "subjects": ["Biology", "Chemistry", "Environmental Science"],
+            "style": "Hands-on experiments and engaging discussion are the core of my teaching.",
+            "experience": "6 years working in public schools and science summer camps.",
+            "contact": "Email: emma.stoneheart@example.com | Phone: (987) 123-4567",
+            "booking": [
+                "Tuesday: 2-6 PM",
+                "Thursday: 1-5 PM",
+                "Sunday: 9AM-1PM"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Oliver Twistwood",
+            "photo": "pics/red.png",
+            "bio": "Innovative Computer Science teacher eager to inspire future technologists.",
+            "qualifications": ["B.Tech in Computer Science", "Certified in Educational Technology"],
+            "subjects": ["Programming", "Data Structures", "Machine Learning"],
+            "style": "I believe in a project-based approach that fosters critical thinking.",
+            "experience": "8 years teaching at tech bootcamps and online courses.",
+            "contact": "Email: oliver.twistwood@example.com | Phone: (456) 234-5678",
+            "booking": [
+                "Friday: 6-10 PM",
+                "Saturday: 12PM-4PM",
+                "Sunday: 10AM-2PM"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Emma Bridgewater",
+            "photo": "pics/brown.png",
+            "bio": "Dedicated Math teacher with a knack for making complex concepts simple.",
+            "qualifications": ["M.Sc. in Mathematics", "Ph.D. in Applied Mathematics"],
+            "subjects": ["Calculus", "Algebra", "Statistics"],
+            "style": "I blend traditional teaching with interactive digital tools for a comprehensive understanding.",
+            "experience": "10 years as a university lecturer and private tutor.",
+            "contact": "Email: emma.bridgewater@example.com | Phone: (789) 123-4567",
+            "booking": [
+                "Wednesday: 1-5 PM",
+                "Thursday: 2-6 PM",
+                "Saturday: 9AM-1PM"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Lucas Ironhand",
+            "photo": "pics/orange.png",
+            "bio": "Physics teacher with a passion for unraveling the mysteries of the universe.",
+            "qualifications": ["M.S. in Physics", "Ph.D. in Astrophysics"],
+            "subjects": ["Classical Mechanics", "Quantum Physics", "Thermodynamics"],
+            "style": "Experiments and practical examples are central to my classes to illustrate theoretical concepts.",
+            "experience": "12 years of teaching in various high schools and colleges.",
+            "contact": "Email: lucas.ironhand@example.com | Phone: (321) 654-9870",
+            "booking": [
+                "Monday: 5-9 PM",
+                "Thursday: 4-8 PM",
+                "Sunday: 11AM-3PM"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Sophia Bookwright",
+            "photo": "pics/grey.png",
+            "bio": "Energetic English Literature teacher with a deep love for classical and modern prose.",
+            "qualifications": ["B.A. in English", "M.A. in English Literature"],
+            "subjects": ["English Literature", "Composition", "Creative Writing"],
+            "style": "My approach is to discuss literature in a way that speaks to modern themes and students' experiences.",
+            "experience": "7 years engaging students in high school literature courses.",
+            "contact": "Email: sophia.bookwright@example.com | Phone: (555) 987-6543",
+            "booking": [
+                "Tuesday: 3-7 PM",
+                "Wednesday: 2-5 PM",
+                "Friday: 1-4 PM"
+            ]
+        }
+        
+    ]
+}

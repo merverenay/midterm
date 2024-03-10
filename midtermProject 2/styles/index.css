@@ -1,0 +1,471 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #333; /* Default text color */
+}
+
+/* Set some basic default styles */
+body {
+    font-family: 'Arial', sans-serif; /* Use a common sans-serif font */
+    line-height: 1.6; /* Default line height */
+    padding: 20px; /* Add some padding around the content */
+}
+
+nav ul {
+    height: 50px;
+    display: flex; /* Display navigation items inline */
+    justify-content: space-around; /* Space out the navigation items */
+}
+
+nav ul li {
+    list-style: none; /* Remove default list styling */
+    margin-right: 3px;
+    margin: 10px; 
+}
+
+nav ul li a {
+    height: 50px;
+    color: #fff; /* White text color for links */
+    padding: 5px 10px; /* Padding for clickable area */
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center; /* Center align text */
+    padding: 50px 20px; /* Padding around the content */
+    background: #e2e2e2; /* Light background color for contrast */
+}
+
+/* Call to action button styles */
+.cta-button {
+    display: inline-block; /* Display as inline-block for inline positioning */
+    padding: 10px 20px; /* Padding inside the button */
+    background: #007bff; /* A blue background color */
+    color: #fff; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Margin on top for spacing */
+}
+
+/* Main content section styles */
+main section {
+    padding: 20px 0; /* Padding around each section */
+}
+
+/* Footer styles */
+footer {
+    background: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align footer text */
+    padding: 10px 20px; /* Padding inside the footer */
+}
+#search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#search-form input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-form button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#lessons-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min
+-max-content);
+gap: 1rem;
+padding: 1rem;
+}
+
+.lesson-item {
+border: 1px solid #ccc;
+padding: 1rem;
+border-radius: 5px;
+text-align: center;
+}
+
+how-it-works-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.step {
+    margin-bottom: 2rem;
+    background: #f8f9fa;
+    border-left: 4px solid #007bff;
+    padding: 1rem;
+}
+
+.step h2 {
+    color: #007bff;
+}
+
+.step p {
+    line-height: 1.6;
+}
+
+
+    
+    .contact-container label {
+    margin-top: 1rem;
+    }
+    
+    .contact-container input[type="text"],
+    .contact-container input[type="email"],
+    .contact-container textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    .contact-container textarea {
+    resize: vertical; /* Allows only vertical resizing */
+    }
+    
+    .contact-container button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .contact-container button:hover {
+    background-color: #0056b3;
+    }
+    
+    .contact-info {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    }
+    
+    .contact-info h3 {
+    margin-bottom: 1rem;
+    }
+
+    #teacher-profiles-container {
+        display: flex;
+        flex-wrap: wrap;/* ////////////////////////////////////////////////// */
+        gap: 20px; /* Space between profiles */
+        justify-content: flex;
+    }
+    
+    .teacher-profile {
+        border: 1px solid #ddd;
+        padding: 10px;
+        /* width: calc(33.333% - 20px); Three profiles per row minus gap */
+    }
+    
+    .teacher-photo {
+        max-width: 40%;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+ 
+    
+    .teacher-card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(108, 108, 108, 0.1);
+        overflow: hidden;
+        width: 300px; /* Adjust width as needed */
+    }
+    
+    .teacher-card img {
+        width: 100%;
+        height: 300px; /* Adjust height as needed */
+        object-fit: cover;
+    }
+    
+    .teacher-card h3 {
+        margin: 10px;
+        color: #333;
+    }
+    
+    .teacher-card p {
+        margin: 0 10px 10px;
+        color: #666;
+        font-size: 14px;
+    }
+    
+    .teacher-card button {
+        display: block;
+        width: calc(100% - 20px);
+        margin: 10px;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .teacher-card button:hover {
+        background-color: #0056b3;
+    }
+    .accordion-content {
+        padding: 0 18px;
+        background-color: white;
+        display: none; /* Hidden by default */
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    
+   
+    
+    /* Style for when accordion is active */
+    .accordion-toggle.active + .accordion-content {
+        display: block;
+    }
+    .teacher-profile-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .teacher-profile-details {
+        /* Styles for the profile details section */
+        flex: 3; /* takes 3/4th of the space */
+    }
+    
+    .teacher-profile-booking {
+        /* Styles for the booking section */
+        flex: 1; /* takes 1/4th of the space */
+        margin-left: 20px; /* Spacing between the sections */
+        border: 1px solid #ccc; /* Optional border */
+        padding: 20px; /* Padding inside the booking box */
+        box-shadow: 0px 0px 10px rgba(96, 96, 96, 0.1); /* Optional shadow */
+        background-color: #f9f9f9; /* Background color of the booking box */
+    }
+    
+    .booking-box {
+        width: 200%; /* Full width of the sidebar */
+    }
+    
+    .booking-box h2 {
+        margin-bottom: 15px; /* Spacing after the heading */
+    }
+    
+    teacher-profile-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .teacher-profile-details {
+        width: 70%; /* Profile details take up 70% width */
+    }
+    
+    
+    /* Style adjustments may be required for the rest of your content */
+    
+    /* Responsive considerations */
+    @media (max-width: 768px) {
+        .teacher-profile-container {
+            flex-direction: column;
+        }
+    
+
+    }
+    .teacher-profile-container {
+        display: flex;
+        flex-direction: row-reverse; /* Reverse the order of the flex items */
+        align-items: flex-start;
+        gap: 20px; /* Adjust the space between the columns */
+        max-width: 1200px; /* Or the max width you prefer */
+        margin: 0 auto; /* Center the container */
+        padding: 20px; /* Padding around the container */
+    }
+    
+   
+    
+  
+    
+    /* Add additional styles for your accordions and other elements as needed */
+    
+    /* Responsive considerations */
+    @media (max-width: 768px) {
+        .teacher-profile-container {
+            flex-direction: column;
+            display: flex;
+            
+        }
+    
+
+    }
+    .teacher-profile-container {
+        display: flex;
+        align-items
+    :flex-start;
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    }
+    
+    .teacher-profile-details {
+    flex: 3; 
+    
+    }
+    
+    .teacher-profile-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        /* Add any padding, margins, or additional styling as needed */
+    }
+    
+    .teacher-profile-details {
+        flex: 3; /* Allocate 3 parts of the space to the profile details */
+        /* Additional styling for profile details */
+    }
+    
+  
+    
+    /* Responsive behavior for smaller screens */
+    @media (max-width: 768px) {
+        .teacher-profile-container {
+            flex-direction: column;
+        }
+    
+ 
+        
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* This ensures padding does not add to the total width */
+    }
+    
+    
+    
+    /* Responsive design adjustments for smaller screens */
+    @media (max-width: 768px) {
+        main {
+            flex-direction: column;
+        }
+    
+        .teacher-profile-details, .teacher-profile-booking {
+            width: 100%; /* On small screens, each section takes full width */
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    /* Additional styles for your elements */
+    .accordion-content, .booking-box {
+        width: 100%; /* Ensure internal elements also take up full width */
+    }
+    .teacher-profile {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .logo {
+        border-radius: 100%; /* This creates the circular shape */
+        overflow: hidden; /* Ensures no overflow if the image is not square */
+        width: 100px; /* Set a specific width */
+        height: 100px; /* Set a specific height to match the width for a perfect circle */
+        object-fit: cover; /* If the image is not square, this will help cover the area without stretching */
+        margin-top: 20px;
+    }
+
+    header {
+        background: #333; /* Dark background for the header */
+        color: #fff; /* White text color */
+        padding: 5px 20px; /* Reduced padding to make the header less thick */
+    }
+    
+    header img {
+        height: 50px; /* Reduced height of the logo */
+        margin-bottom: -40px; /* Pushes the logo down */
+    }
+    header img.logo {
+        width: 60px; /* Original size was 100px, adjust as needed */
+        height: 60px; /* Maintain the same value as width for a square logo */
+        /* Other styles as needed */
+    }
+    main {
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    .how-it-works-container {
+        max-width: 800px;
+        margin: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column; /* Stack the steps vertically */
+        gap: 20px; /* Space between the steps */
+    }
+    
+    .step {
+        background-color: #fff; /* White background for the step */
+        padding: 20px; /* Padding inside the step */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        margin: 10px 0; /* Space between steps */
+        border-left: 4px solid; /* Colored border on the left */
+    }
+    
+    /* Assign different colors to each step */
+    .step:nth-child(1) {
+        border-color: #64be28; /* Color for Step 1 */
+    }
+    
+    .step:nth-child(2) {
+        border-color: #35c3e0; /* Color for Step 2 */
+    }
+    
+    .step:nth-child(3) {
+        border-color: #7851ec; /* Color for Step 3 */
+    }
+    
+    /* Step title styles */
+    h2 {
+        color: #333; /* Dark text color for readability */
+    }
+    
+    /* Responsive design considerations */
+    @media (max-width: 768px) {
+        .how-it-works-container {
+            padding: 1rem;
+        }
+    
+    }
+    .hero { /* Assuming .hero is the class of the section you want to change */
+        background-image: url('myotherimages/backgroundd.png'); /* Replace with your image path */
+        background-size: cover; /* Cover the entire section */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-color: rgb(252, 219, 55);
+        
+    }
+
+    .bottom-left-image {
+        position: fixed; /* Fixed position, or use absolute if it should move with scrolling */
+        left: 850px; /* 500px from the left, adjust as needed */
+        bottom: 0; /* At the bottom */
+        z-index: -1; /* Below other content */
+    }
